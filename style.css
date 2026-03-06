@@ -139,8 +139,6 @@ width:100%;
 height:auto;
 }
 
-/* FEATURES SECTION */
-
 .features{
 padding:120px 0;
 text-align:center;
@@ -295,7 +293,7 @@ transform:translateY(-6px);
 }
 
 .blue-section h2 {
-  font-size: 42px;
+  font-size: 40px;
   font-weight: 700;
   max-width: 700px;
   margin: 0 auto 50px;
@@ -303,7 +301,7 @@ transform:translateY(-6px);
 }
 
 .blue-card-single {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 30px;
   background: rgba(255, 255, 255, 0.1);
@@ -451,18 +449,9 @@ margin-right:10px;
 }
 
 /* animations */
-
 .fade-up {
   opacity: 0;
   transform: translateY(40px);
-  animation: fadeUp 1s ease forwards;
-}
-
-@keyframes fadeUp {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
 
 /* responsive */
